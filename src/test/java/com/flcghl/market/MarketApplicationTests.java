@@ -1,4 +1,4 @@
-package com.flcghl.market.market;
+package com.flcghl.market;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

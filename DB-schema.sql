@@ -1,6 +1,3 @@
--- MySql Database
-CREATE DATABASE market;
-
 USE market;
 -- -----------------------------------------------------
 -- Table `CATEGORIAS`
@@ -71,7 +68,7 @@ CREATE TABLE  `COMPRAS_PRODUCTOS` (
   `id_producto` INT NOT NULL,
   `cantidad` INT NULL,
   `total` DECIMAL(16,2) NULL,
-  `estado` BOOLEAN NULL,
+  `estado` BOOLEAN,
   PRIMARY KEY (`id_compra`, `id_producto`),
   CONSTRAINT `fk_COMPRAS_PRODUCTOS_PRODUCTOS1`
     FOREIGN KEY (`id_producto`)

@@ -5,7 +5,6 @@ import java.util.Optional;
 
 import com.flcghl.market.domain.Product;
 
-import org.springframework.stereotype.Repository;
 
 public interface ProductRepository {
     List<Product> getAll();

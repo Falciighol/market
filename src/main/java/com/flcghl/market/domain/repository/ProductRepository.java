@@ -5,7 +5,6 @@ import java.util.Optional;
 
 import com.flcghl.market.domain.Product;
 
-
 public interface ProductRepository {
     List<Product> getAll();
     Optional<List<Product>> getByCategory(int categoryId);
